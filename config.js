@@ -9,10 +9,10 @@ window.SITE_CONFIG = {
   // The name shown at the top of your site. A nickname or made-up forecaster
   // name is fine and recommended. Do not put your real name, email, photo,
   // or anything else that identifies you on this site.
-  forecaster_name: "",
+  forecaster_name: "AS",
 
   // One short line under the name (optional).
-  tagline: "",
+  tagline: "The economy, the polls, and the people.",
 
   // A plain-language description of YOUR model, in your own words. Each line in
   // quotes is one paragraph, followed by a comma. Two or three short paragraphs:
@@ -25,8 +25,11 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "",
-    ""
+  "My forecast begins with an estimate of the national political environment. I combine two approaches equally: a historical model based on presidential approval, income growth, gas prices, inflation trends, and midterm elections, and an average of national generic ballot polls corrected for their historical tendency to overestimate Democratic support.",
+
+  "I then use separate models for House and Senate races, built from past election results. Both account for each district's or state's underlying partisan lean, incumbency, and campaign spending. The House model also considers local education levels relative to income and how well incumbents performed in previous elections. When reliable campaign spending data are unavailable, I use a version of the model that excludes spending.",
+
+  "Finally, I account for uncertainty using historical forecasting errors and 20,000 simulated elections. Each simulation allows for a national shift affecting all races together, along with unpredictable changes specific to individual contests."
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
